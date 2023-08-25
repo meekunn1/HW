@@ -1,0 +1,20 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "homepage": "https://meekunn.github.io/my-app",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
